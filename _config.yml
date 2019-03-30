@@ -1,0 +1,3 @@
+name: The Basics of Computing Physics
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
