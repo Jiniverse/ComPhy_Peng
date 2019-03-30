@@ -7,7 +7,7 @@
 This is my answer to the second assignment from the course ***The Basics of Computing Physics*** lectured by Prof. Peng. You can also download other nice code written by your classmates from the public E-mail.  I recommend some of them:
 
 - 陈星合 : outstanding work with nice figures and vivid animation. An animated change of view is created in Prob.3, which looks like a camera zooming in and that impressed me a lot.
-- 王彧辰 : delicate program with well-organized code, effective looping structure and sufficient comment. An algorithm is provided in  Prob.2 that controls the circle rollsing back and forth .
+- 王彧辰 : delicate program with well-organized code, effective looping structure and sufficient comments. An algorithm is provided in  Prob.2 that controls the circle rolling back and forth .
 
 ## Plot a toroidal spiral
 
