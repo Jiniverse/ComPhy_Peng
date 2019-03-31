@@ -4,7 +4,7 @@
 
 ***Department of Physics, BNU***
 
-My program about L-system drawing has been published on [github](<https://github.com/Jiniverse/L-system-fractals>). Feel free to create a fork and modify it by yourself. Well, I have to admit that I didn't have time to solve the first two problems in this homework, but I'm surprised to see quite a lot awesome programs uploaded to the public email. Some of the running results have been shown below. 
+My program about L-system drawing has been published on [github](<https://github.com/Jiniverse/L-system-fractals>). Feel free to create a fork and modify it by yourself. Well, I have to admit that I didn't have time to solve the first two problems in this homework, but I'm surprised to see quite a lot of awesome programs uploaded to the public email. Some of the running results have been shown below. 
 
 ## Show Field lines of Quadrupole Magnetic Trap
 
@@ -102,7 +102,7 @@ h4=streamline(XX,YY,ZZ,Bx,By,Bz,9.5,0,0);
 
 ## L-system fractals drawing
 
- Everyone has uploaded a custom function this time. Here I show a different one from others'.  This work was done by 陀础熠.  He used a class variable to store the information about a fractal pattern and customized a function named `dofractual` for plotting. 
+ Everyone has uploaded a custom function this time. Here I show a different one from others'.  This work was done by 陀础熠.  He used a class variable to store the information about a fractal pattern and customized a function named `dofractual` for plot. 
 
 ```matlab
 %将分形封装成一个类，其中的dofractual函数是原来要求的分形函数，只不过传参的时候通过对象传参
