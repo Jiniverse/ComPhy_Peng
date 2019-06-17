@@ -50,6 +50,6 @@ end
 axis([-1,1,-1,1])
 ```
 
-![](/ComPhy_Peng/hw4/fig1.png)
+![](/ComPhy_Peng/hw9/fig1.png)
 
-![](/ComPhy_Peng/hw4/fig2.png)
+![](/ComPhy_Peng/hw9/fig2.png)
