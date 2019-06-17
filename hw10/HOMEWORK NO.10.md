@@ -29,7 +29,7 @@ subplot(2,2,3);hold on;title('Electric Potential On the Surface')
 pdeplot3D(model,'ColorMapData',results.NodalSolution)
 
 % countourslice and field lines
-[X,Y,Z] = meshgrid(0:2:120,0:2:120,0:1:140);
+[X,Y,Z] = meshgrid(0:120,0:120,0:120);
 uintrp = interpolateSolution(results,X,Y,Z);
 uintrp = reshape(uintrp,size(X));
 subplot(2,2,4);view(45,10);axis equal;axis off;hold on
@@ -37,8 +37,8 @@ title('Equipotential Lines and Electric Field Lines')
 contourslice(X,Y,Z,uintrp,[],[],7:10:107)
 colormap jet;colorbar
 
-[Ex,Ey,Ez]=gradient(uintrp);
-[sx,sy]=meshgrid(linspace(-2+50,2+50,5));
+[Ex,Ey,Ez]=gradient(uintrp,1,1,1);
+[sx,sy]=meshgrid(linspace(-15+50,15+50,10));
 streamline(X,Y,Z,Ex,Ey,Ez,sx,sy,ones(length(sx)))
 ```
 
