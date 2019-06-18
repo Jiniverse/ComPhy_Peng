@@ -22,16 +22,16 @@ Xnl = Xnl(rs,xi);
 M = max(Xnl);
 rs2 = M*rand(1,N);
 r = rs(rs2<Xnl);
-n = length(r);
+nr = length(r);
 % phi =2*pi*rand(1,n);
 
 %% angular wave function
-ts = pi*rand(1,n);
+ts = pi*rand(1,nr);
 Ylm = legendre(l, cos(ts));
 Ylm = Ylm(abs(m)+1,:);
 Ylm2 = Ylm.*Ylm;
 My = max(Ylm2);
-ts2 = My*rand(1,n);
+ts2 = My*rand(1,nr);
 t = ts(ts2<Ylm2);
 nn = length(t);
 
